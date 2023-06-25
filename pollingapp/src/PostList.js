@@ -20,7 +20,7 @@ const PostList = () => {
 
     const interval1 = setInterval(()=>{
         setCounter((prevTime)=>{
-            return prevTime + 0.5;
+            return prevTime + 1;
         })
     },1000)
     
